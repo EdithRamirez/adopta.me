@@ -1,0 +1,37 @@
+.pd-0{
+	padding: 0;
+}
+h1{
+	color: #64c2d1;
+}
+h1 strong{
+	color: #FCF901;
+}
+.fotoDog{
+	width: 60%;
+	border: 3px solid #FCF901;
+}
+p.caption{
+	font-size: 1em;
+}
+h2{
+	color: #941542;
+}
+.bg-rojo{
+	background-color: #941542;
+}
+button{
+	color: #fff;
+	margin-left: 5%; 
+}
+.bloque{
+	display: block;
+}
+#labelAge{
+	font-size: 3em;
+	font-weight: 900;
+	color: #0A3A05;
+}
+.caja{
+	border: 1px solid #333;
+}
