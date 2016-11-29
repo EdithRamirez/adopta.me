@@ -7,9 +7,19 @@ h1{
 h1 strong{
 	color: #FCF901;
 }
-.fotoDog{
-	width: 60%;
+img{
 	border: 3px solid #FCF901;
+}
+.foto{
+	width: 100%;
+	height: 100%;	
+}
+.foto-list{
+	width: 90px;
+	height: 90px;
+}
+.foto-adop{
+	max-width: 50%;
 }
 p.caption{
 	font-size: 1em;
@@ -34,4 +44,13 @@ button{
 }
 .caja{
 	border: 1px solid #333;
+}
+strong{
+	font-size: 2em;
+}
+span{
+	color: #1FC5D9;
+}
+.btn-morado{
+	background-color: #A61B54;
 }

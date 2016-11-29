@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Adopta.me</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+	<body><!-- Escribe tu código HTML aquí -->
+		<header><!--inicio de encabezado-->
+			<div class="container-fluid pd-0"><!--inicio de contenedor navegador-->	
+				<nav class="navbar bg-rojo" role="navegation"><!--inicio de menu-->
+					<div class="container-fluid">
+						<div class="navbar-header"><!--menu responsivo-->
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-responsivo" aria-expanded="false">
+								<span class="sr-only">menu</span>
+								<span class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></span><!--icono cuando se hace responsive-->
+							</button>
+							<h1 class="navbar-brand">Adopta<strong>.me</strong></h1>
+						</div><!--menu responsivo-->
+						<div class="collapse navbar-collapse" id="menu-responsivo">
+							<ul class="nav navbar-nav navbar-right menu">
+								<li><a href="#home">Home</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav><!--fin de menu-->
+			</div>
+		</header><!--fin de encabezado-->
+		<section><!--inicio de seccion de informacion-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+						<img id="photoPet" class="img-circle foto-adop" src="img/perro.jpg" alt="foto de Chachita">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<strong>Adoptar una mascota</strong>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<form>
+							<div class="form-group">
+								<label for="idname">Nombre </label>
+								<input type="text" class="form-control" id="idname">
+							</div>
+							<div class="row">								
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<label for="idCity">Delegación </label>
+									<input type="text" class="form-control" id="idCity">
+								</div>
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<label for="idState">Ciudad</label>
+									<input type="text" class="form-control" id="idCity">
+								</div>
+							</div>
+							<div class="row">								
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<label for="idAge">Edad </label>
+									<input type="text" class="form-control" id="idAge">
+								</div>
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<label for="idType">Tipo</label>
+									<select class="form-control" id="idType">
+										<option value="months">Meses</option>
+										<option value="years">Años</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+									<label for="idGender">Sexo </label>
+									<select class="form-control" id="idGender">
+										<option value="female">Hembra</option>
+										<option value="male">Macho</option>
+									</select>
+								</div>
+							<div class="form-group">
+								<label for="idSize">Tamaño </label>
+								<select class="form-control" id="idSize">
+									<option value="fame">Chico</option>
+									<option value="male">Mediano</option>
+									<option value="male">Grande</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="idDescription">Información de la mascota </label>
+								<textarea class="form-control" id="idDescription" rows="3"></textarea>
+							</div>
+							<fieldset class="form-group">
+								<label>¿Necesita cuidados especiales?</label>
+								<div class="form-check">
+									<label class="form-check-label radio-inline">
+										<input type="radio" name="optradio">Sí
+									</label>
+							
+									<label class="radio-inline">
+										<input type="radio" name="optradio">No
+									</label>
+								</div>
+							</fieldset>
+							<fieldset class="form-group">
+								<label>¿Esta vacunado?</label>
+								<div class="form-check">
+									<label class="form-check-label radio-inline">
+										<input type="radio" name="optradio">Sí
+									</label>
+							
+									<label class="radio-inline">
+										<input type="radio" name="optradio">No
+									</label>
+								</div>
+							</fieldset>
+							<fieldset class="form-group">
+								<label>¿Esta esterilizado?</label>
+								<div class="form-check">
+									<label class="form-check-label radio-inline">
+										<input type="radio" name="optradio">Sí
+									</label>
+							
+									<label class="radio-inline">
+										<input type="radio" name="optradio">No
+									</label>
+								</div>
+							</fieldset>
+							
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input">
+									He leido, entendido y aceptado todos los <span>términos y condiciones.</span>
+								</label>
+							</div>
+							<button type="submit" class="btn btn-morado center-block">Enviar Solicitud</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section><!--fin de seccion de informacion-->
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="https//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
